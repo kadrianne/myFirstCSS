@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    border: 10px solid blue;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+}
+
+li {
+    margin: 5px;
+}
+
+button {
+    background-color: orange;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+main {
+    border: 10px solid red;
+    padding: 50px;
+}
+
+footer {
+    border: 10px solid green;
+    padding: 50px;
+}
